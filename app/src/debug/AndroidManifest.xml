@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Debug builds only: lets adb run the unattended backup without waiting for 2am. -->
+    <application>
+        <receiver
+            android:name=".backup.DebugBackupTrigger"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.receiptledger.app.RUN_DAILY_BACKUP" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".backup.DebugDestinationDump"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.receiptledger.app.DUMP_DESTINATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

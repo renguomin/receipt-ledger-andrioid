@@ -1,0 +1,93 @@
+{
+  "dumps": {
+    "ocr-20260824-185000.txt": "Shell",
+    "ocr-20260824-185108.txt": "Best Buy",
+    "ocr-20260824-185253.txt": "Superstore",
+    "ocr-20260824-185339.txt": "T&T"
+  },
+  "gliner": {
+    "ocr-20260824-185000.txt": {
+      "GST amount": [
+        "$ 60. 00 (0.64)",
+        "$2.379 (0.44)",
+        "$60.00 (0.56)",
+        "$60.00 (0.50)",
+        "$60.00 (0.56)"
+      ],
+      "date": [
+        "2026/08/20 (0.69)"
+      ],
+      "store name": [
+        "CO7514 (0.48)"
+      ],
+      "GST HST number": [
+        "11187874 (0.52)"
+      ]
+    },
+    "ocr-20260824-185108.txt": {
+      "merchant": [
+        "BestBuy (0.77)",
+        "bestbuycanaducares (0.80)",
+        "bestbuycanedacar (0.84)",
+        "bestbuy (0.88)"
+      ]
+    },
+    "ocr-20260824-185253.txt": {},
+    "ocr-20260824-185339.txt": {
+      "merchant": [
+        "T&T SUPERMARKET (0.49)"
+      ]
+    }
+  },
+  "nuextract": {
+    "ocr-20260824-185000.txt": {
+      "merchant": "Shell Canada",
+      "date": "2026/08/20",
+      "currency": "",
+      "subtotal": "",
+      "total": "",
+      "gst": "",
+      "pst": "",
+      "hst": "",
+      "paymentMethod": "Visa",
+      "gstHstNumber": ""
+    },
+    "ocr-20260824-185108.txt": {
+      "merchant": "BestBuy",
+      "date": "02/07/2026",
+      "currency": "",
+      "subtotal": "",
+      "total": "",
+      "gst": "",
+      "pst": "",
+      "hst": "",
+      "paymentMethod": "",
+      "gstHstNumber": ""
+    },
+    "ocr-20260824-185253.txt": {
+      "merchant": "RCSS",
+      "date": "1561 WILOWBROOK DR1VE",
+      "currency": "",
+      "subtotal": "1.97",
+      "total": "1.97",
+      "gst": "5",
+      "pst": "1",
+      "hst": "1",
+      "paymentMethod": "MASTERCARD",
+      "gstHstNumber": "12223-5922"
+    },
+    "ocr-20260824-185339.txt": {
+      "merchant": "T8T",
+      "date": "11/02/25",
+      "currency": "N",
+      "subtotal": "",
+      "total": "",
+      "gst": "",
+      "pst": "",
+      "hst": "",
+      "paymentMethod": "Visa",
+      "gstHstNumber": "776643"
+    }
+  },
+  "errors": []
+}

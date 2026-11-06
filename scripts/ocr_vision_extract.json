@@ -1,0 +1,65 @@
+{
+  "source": "Vision pass on ML Kit document-scanner JPEGs pulled from the phone, 24 Aug 2026",
+  "receipts": {
+    "ocr-20260824-185000": {
+      "merchant": "Shell Canada",
+      "address": "9622 200 Street, Langley BC V1M 3A6",
+      "date": "2026-08-20",
+      "time": "21:45:56",
+      "currency": "CAD",
+      "litres": 25.22,
+      "pricePerLitre": 2.379,
+      "subtotal": 60.0,
+      "total": 60.0,
+      "taxes": [{ "kind": "GST", "amount": 2.86 }],
+      "gstHstNumber": "137400032RT",
+      "paymentMethod": "VISA",
+      "notes": "Fuel includes GST. Pump 06. Store C07514."
+    },
+    "ocr-20260824-185108": {
+      "merchant": "Best Buy",
+      "date": "2026-02-07",
+      "currency": "CAD",
+      "item": 454.99,
+      "recycleFee": 5.0,
+      "subtotal": 459.99,
+      "taxes": [
+        { "kind": "PST", "rate": 0.07, "amount": 32.2 },
+        { "kind": "GST", "rate": 0.05, "amount": 23.0 }
+      ],
+      "taxTotal": 55.2,
+      "total": 515.19,
+      "paymentMethod": "VISA",
+      "notes": "Printed date 02/07/2026. GST+PST on $459.99."
+    },
+    "ocr-20260824-185253": {
+      "merchant": "Real Canadian Superstore",
+      "address": "1561 Willowbrook Drive",
+      "date": "2025-11-02",
+      "time": "19:19:11",
+      "currency": "CAD",
+      "subtotal": 8.96,
+      "taxes": [
+        { "kind": "GST", "amount": 0.2 },
+        { "kind": "PST", "amount": 0.28 }
+      ],
+      "taxTotal": 0.48,
+      "total": 9.44,
+      "paymentMethod": "MASTERCARD",
+      "notes": "Printed 25/11/02. PC Optimum on the slip."
+    },
+    "ocr-20260824-185339": {
+      "merchant": "T&T Supermarket",
+      "address": "100-19705 Fraser Highway, Langley BC",
+      "date": "2025-11-02",
+      "time": "18:56:23",
+      "currency": "CAD",
+      "subtotal": 77.24,
+      "taxes": [{ "kind": "GST", "amount": 1.11 }],
+      "taxTotal": 1.11,
+      "total": 78.35,
+      "paymentMethod": "VISA",
+      "notes": "Printed 11/02/25 6:56:23 PM. Mixed English/Chinese item lines."
+    }
+  }
+}

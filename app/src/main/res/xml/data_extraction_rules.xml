@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Receipts and photos are backed up explicitly to Google Drive, so they are kept out of Android
+  Auto Backup. Two reasons: the photo directory is far larger than the 25 MB Auto Backup allows,
+  which would silently fail the whole backup, and a restored database from an older build cannot
+  be migrated backwards by Room, which crashes the app on every launch.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="database" path="receipt-ledger.db" />
+        <exclude domain="database" path="receipt-ledger.db-wal" />
+        <exclude domain="database" path="receipt-ledger.db-shm" />
+        <exclude domain="file" path="receipts" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="database" path="receipt-ledger.db" />
+        <exclude domain="database" path="receipt-ledger.db-wal" />
+        <exclude domain="database" path="receipt-ledger.db-shm" />
+        <exclude domain="file" path="receipts" />
+    </device-transfer>
+</data-extraction-rules>

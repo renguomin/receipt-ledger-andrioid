@@ -1,0 +1,10 @@
+{
+  "merchant": "CDN TIRE",
+  "date": "2026-03-12",
+  "currency": "CAD",
+  "subtotal": 19.99,
+  "total": 22.59,
+  "taxTotal": 2.60,
+  "gstHstNumber": "123456789RT0001",
+  "paymentMethod": "visa"
+}
