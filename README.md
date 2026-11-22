@@ -4,6 +4,8 @@ Android app that scans everyday receipts, reads the text, and fills the tax fiel
 
 This is a record-keeping aid, not tax advice.
 
+**Privacy policy (required for Google Play):** [PRIVACY.md](PRIVACY.md). Public URL once the repo is public: `https://github.com/renguomin/receipt-ledger-andrioid/blob/main/PRIVACY.md`
+
 ## What it does
 
 1. Opens Google’s document scanner so a folded slip can be flattened and brightened.
